@@ -9,10 +9,8 @@ dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         google()
-//        Jcenter() added instead of mavenCentral()
-        jcenter()
-        maven {url "https://jitpack.io"}
-
+        mavenCentral() // <-- Crucial for the image cropper
+        maven { url 'https://jitpack.io' } // <-- Needed for other dependencies
     }
 }
 rootProject.name = "PixelPlay"

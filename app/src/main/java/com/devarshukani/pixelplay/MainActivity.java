@@ -220,7 +220,7 @@ public class MainActivity extends AppCompatActivity {
         if (requestCode == CropImage.CROP_IMAGE_ACTIVITY_REQUEST_CODE) {
             CropImage.ActivityResult result = CropImage.getActivityResult(data);
             if (resultCode == RESULT_OK) {
-                CropImage.ActivityResult result = CropImage.getActivityResult(data);
+                CropImage.ActivityResult cropResult = CropImage.getActivityResult(data);
                 Uri resultUri = cropResult.getUriContent();
                 Bitmap photo = null;
                 try {

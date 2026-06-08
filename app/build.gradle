@@ -38,5 +38,5 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 
 //    External Libraries
-    implementation 'com.github.canhub:android-image-cropper:3.1.1'
+    implementation 'com.github.canhub:android-image-cropper:3.2.1'
 }
